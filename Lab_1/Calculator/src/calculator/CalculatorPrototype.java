@@ -15,10 +15,10 @@ public class CalculatorPrototype implements CalculatorIF {
 
     @Override
     public int divide (int m, int n){
-        int result = m;
-        while (m>0){
+        int result = 0;
+        while (m>0){//3//2//1//0
             m-=n;
-            result++;
+            result++;//1//2//3
         }
         if (m!=0){
             result -= 1;
